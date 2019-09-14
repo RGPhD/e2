@@ -1,11 +1,9 @@
-*Any instructions/notes in italics should be removed from the template before submitting* 
-
 # Project 1
 + By: *Robelyn Garcia*
 + Production URL: <http://p1.yourdomain.com>
 
 ## Outside resources
-*your list of outside resources go here*
++ My brief bio retrieved from <https://universityofsedona.com/rev-robelyn-garcia>
 
 ## Notes for instructor
-*any notes for me to refer to while grading; if none, omit this section*
++ I used my local server and JSFiddle to work on and test my code <https://jsfiddle.net/RobelynGarcia/fe8jdhLs/>
