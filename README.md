@@ -1,6 +1,10 @@
+# e2
+Course work for DGMD E-2
+<https://hesweb.dev/es>
+
 # Project 1
 + By: *Robelyn Garcia*
-+ Production URL: <http://p1.yourdomain.com>
++ Production URL: <http://p1.robelyngarcia.me>
 
 ## Outside resources
 + My *brief bio* retrieved from <https://universityofsedona.com/rev-robelyn-garcia>
