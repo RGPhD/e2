@@ -1,6 +1,6 @@
-# Project 1
+# Practice
 + By: *Robelyn Garcia Practice*
-+ Production URL: <http://p1.yourdomain.com>
++ Production URL: <http://practice.robelyngarcia.me>
 
 ## Outside resources
 *n/a*
