@@ -1,13 +1,23 @@
-# e2
+# DGMD e2
 Course work for DGMD E-2
 <https://hesweb.dev/e2>
 
-# Project 1
-+ By: *Robelyn Garcia*
+## Practice APP
++ *Practice Workflow setup*
++ Production URL: <http://practice.robelyngarcia.me>
+
+## Project 1
++ *Workflow setup*
 + Production URL: <http://p1.robelyngarcia.me>
 
-## Outside resources
-+ My *brief bio* retrieved from <https://universityofsedona.com/rev-robelyn-garcia>
+## Project 2
++ *Basic PHP Application*
++ Production URL: <http://p2.robelyngarcia.me>
 
-## Notes for instructor
-+ I used my local server and JSFiddle to work on and test my code <https://jsfiddle.net/RobelynGarcia/fe8jdhLs>
+## Project 3
++ *Form processing*
++ Production URL: <http://p3.robelyngarcia.me>
+
+## Project 4
++ *Database integration*
++ Production URL: <http://p4.robelyngarcia.me>
