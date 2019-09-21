@@ -1,6 +1,6 @@
 # Project 2
 + By: *Robelyn Garcia*
-+ Production URL: <http://p2.yourdomain.com>
++ Production URL: <http://p2.robelyngarcia.me>
 
 ## Game planning
 *MVP Basketball Knockout 3-Pt Shooting Game. Share the "plain English" notes/plan for my game.
