@@ -5,6 +5,7 @@ Course work for DGMD E-2
 ## Practice APP
 + *Practice Workflow setup*
 + Production URL: <http://practice.robelyngarcia.me>
++ Production URL: <http://practice.robelyngarcia.me/bank.php>
 
 ## Project 1
 + *Workflow setup*
