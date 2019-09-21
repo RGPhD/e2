@@ -3,10 +3,7 @@
 + Production URL: <http://p2.robelyngarcia.me>
 
 ## Game planning
-*MVP Basketball Knockout 3-Pt Shooting Game. Share the "plain English" notes/plan for my game.
-Player 1 and Player 2 shoot a three pointer and either make it or miss it.
-A make is worth 3 points; A miss is worth 0 points. 
-The player with the most points wins and is the MVP!*
+*Player 1 and Player 2 both shoot a three pointer from the top of the key. Each player will either make their shot or miss their shot. A made shot is worth THREE points; a missed shot is worth ZERO points. The player with the most points wins and is the MVP! If the game ends in a tie, the game goes into one overtime. If at the end of overtime the game is still tied, both players are crowned MVP.*
 
 ## Outside resources
 *My list of outside resources go here.*
