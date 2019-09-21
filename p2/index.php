@@ -6,15 +6,17 @@ $make_value = 3;
 $miss_value = 0;
 
 # Define player1 variable, which will each
-# represent how many shots are make and missed
+# Represent how many shots are make and missed
 $player1 = $make_value;
 $player2 = $miss_value;
 
-# Add up how many points player1 has
-$totalPlayer1 = ($make_value) + ($miss_value);
+# Add up how many points Player has
+# Automatic simulation of Player 1 missing the shot for now
+$totalPlayer1 = ($miss_value);
 
-# Add up how many points player2 has
-$totalPlayer2 = ($make_value) + ($miss_value);
+# Add up how many points Player 2 has
+# Automatic simulation of Player 2 making the shot for now
+$totalPlayer2 = ($make_value);
 
 ?>
 
@@ -75,9 +77,13 @@ The player with the most points wins and is the MVP!</p>
 
 <h2>Results</h2>
     <p>
-        Player 1, you have $<?php echo $totalPlayer1; ?> and you are the MVP Winner!
+        Player 1, you have <?php echo $totalPlayer1; ?> points and you are the MVP Winner!
 <br>
-        Player 2, you have $<?php echo $totalPlayer2; ?> and you are not the MVP Winner this time.
+        Player 2, you have <?php echo $totalPlayer2; ?> points and you are not the MVP Winner this time.
     </p>
 </body>
+
+<footer>
+Thanks for Playing the Trailblazers Knockout 3-Pt Shooting Game!
+</footer>
 </html>
