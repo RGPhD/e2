@@ -27,12 +27,17 @@ $totalPlayer2 = ($make_value);
     <title>Trailblazers Knockout 3-Pt Shooting Game.</title>
     <meta charset='utf-8'>
 
+<!-- Create external CSS file? -->
 <style>
 
       h1 {
         color: blue;
         text-align: center;
         border-bottom: thick solid orange;
+      }
+
+      h2 {
+        color: blue;
       }
 
       p {
@@ -55,6 +60,7 @@ $totalPlayer2 = ($make_value);
         margin: auto;
         text-align: center;
         font-size: 110%;
+        font-weight: bold;
         border-top: thick solid orange;
       }
 
@@ -77,13 +83,13 @@ The player with the most points wins and is the MVP!</p>
 
 <h2>Results</h2>
     <p>
-        Player 1, you have <?php echo $totalPlayer1; ?> points and you are the MVP Winner!
+        Player 1, you have <?php echo $totalPlayer1; ?> points and you are not the MVP Winner this time.
 <br>
-        Player 2, you have <?php echo $totalPlayer2; ?> points and you are not the MVP Winner this time.
+        Player 2, you have <?php echo $totalPlayer2; ?> points and you are the MVP Winner!
     </p>
-</body>
-
+<br>
 <footer>
-Thanks for Playing the Trailblazers Knockout 3-Pt Shooting Game!
+<p>Thanks for Playing the Trailblazers Knockout 3-Pt Shooting Game!</p>
 </footer>
+</body>
 </html>
