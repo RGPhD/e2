@@ -1,22 +1,21 @@
 <?php require 'index-controller.php';
 
-# Define 2 different variables, which will
-# Each represent how much a made or missed shot is worth
-$make_value = 3;
-$miss_value = 0;
+// Randomly choose missed shot worth zero points or a made shot worth three points
+// max and min values of 0 and 1
+$winner = null;
+$shots_value = ['3', '0'];
+$player1 = $shots_value[rand(0,1)];
+$player2 = $shots_value[rand(0,1)];
 
-# Define player1 variable, which will each
-# Represent how many shots are make and missed
-$player1 = $make_value;
-$player2 = $miss_value;
-
-# Add up how many points Player has
-# Automatic simulation of Player 1 missing the shot for now
-$totalPlayer1 = ($miss_value);
-
-# Add up how many points Player 2 has
-# Automatic simulation of Player 2 making the shot for now
-$totalPlayer2 = ($make_value);
+if ($player1 > $player2) {
+    $winner = 'Player 1! Congrats Lynette, you are the MVP.  Robbie, you are Knocked Out!';
+} elseif ($player1 < $player2) {
+    $winner = 'Player 2! Congrats Robbie, you are the MVP.  Lynette, you are Knocked Out!';
+} elseif 
+    ($player1 == $player2) {
+    $winner = 'Neither player, it is a tie. Play another round in Overtime.';
+}
+// The above PHP code works for game and overtime as needed
 
 ?>
 
@@ -84,13 +83,16 @@ $totalPlayer2 = ($make_value);
 
 <h2>Mechanics</h2>
 <p>
-Player 1: Lynette Woodard and Player 2: Robbie Garcia both shoot a three pointer from the top of the key. Each player will either make their shot or miss their shot. A made shot is worth THREE points; a missed shot is worth ZERO points. The player with the least points is Knocked Out and the player with the most points Wins the game and is the MVP! If the game ends in a tie, the game goes into one overtime. If at the end of overtime the game is still tied, both players are crowned MVP.</p>
+Player 1: Lynette Woodard and Player 2: Robbie Garcia both shoot a three pointer from the top of the key. Each player will either make their shot or miss their shot. A made shot is worth THREE points; a missed shot is worth ZERO points. The player with the least points is Knocked Out and the player with the most points Wins the game and is the MVP!  If the game ends in a tie, the game goes into overtime. If at the end of overtime the game is still tied, the game continues in overtime rounds until one player wins and is crowned MVP.</p>
 
 <h2>Results</h2>
-    <p>Player 1, you have <?php echo $totalPlayer1; ?> points and you are <strong>Knocked Out.</strong>
-<br>
-        Player 2, you have <?php echo $totalPlayer2; ?> points and you are the <strong>Winner and MVP!</strong>
-    </p>
+<ul>
+    <li>Player 1, you have <?php echo $player1; ?> points.</li>
+    <li>Player 2, you have <?php echo $player2; ?> points.</li>
+    <li><strong>The winner is: </strong><?php echo $winner; ?>
+    </ul>
+
+
     <h3>Thanks for Playing the Trailblazers MVP Knockout 3-Pt Shooting Game!</h3>
 
 <footer>
