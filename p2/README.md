@@ -10,14 +10,14 @@
      * Use the rand function to randomly choose a key, 0 or 1.
      * Use that to extract 3 or 0 from the array.
 * Player 2 shoots a three pointer and randomly either makes their shot or misses their shot.
-      * Repeat the above steps, this time for Player 2.
+     * Repeat the above steps, this time for Player 2.
 * The player with the most points Wins the game and is the MVP!
      * Set the winner to the player with the most points.
 * The player with the least points is Knocked Out.
 * If the game ends in a tie, the game goes into overtime.
-      * Set the winner to neither player.
-      * Repeat the above steps for Player 1 and Player 2.
-      * After the overtime round, set the winner to the player with the most points.
+     * Set the winner to neither player.
+     * Repeat the above steps for Player 1 and Player 2.
+     * After the overtime round, set the winner to the player with the most points.
 * If at the end of overtime the game is still tied, the game continues in overtime rounds until one player wins.
      * Keep repeating the above steps for Player 1 and Player 2 until there is a winner.
 
