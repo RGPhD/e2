@@ -47,7 +47,6 @@
   <h3>Thanks for Playing the Trailblazers MVP Knockout 3-Pt Shooting Game!</h3>
 
   <footer>
-
     <p>MVP ~ The Minimum Viable Product for The Most Valuable Player</p>
     <br>
     <strong><a href="https://hesweb.dev/e2" target="_blank" title="Click to visit Harvard Extension School: Web Programming for Beginners with PHP">Harvard University Extension School: DGMD E-2 Web Programming with PHP

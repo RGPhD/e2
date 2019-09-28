@@ -3,7 +3,7 @@
 + Production URL: <http://p2.robelyngarcia.me>
 
 ## Game planning
-* Define a winner variable, this will be null to start with.
+* Define a winner variable, this will be null at the beginning of the game.
 * Player 1 shoots a three pointer and randomly either makes their shot or misses their shot.
      * A made shot is worth 3 points; a missed shot is worth 0 points.
      * Create an array with these two int values: 3 and 0.
