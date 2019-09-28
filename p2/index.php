@@ -1,24 +1,4 @@
-<?php require 'index-controller.php';
-
-// Randomly choose missed shot worth zero points or a made shot worth three points
-// max and min values of 0 and 1
-$winner = null;
-$shots_value = ['3', '0'];
-$player1 = $shots_value[rand(0,1)];
-$player2 = $shots_value[rand(0,1)];
-
-if ($player1 > $player2) {
-    $winner = 'Player 1! Congrats Lynette, you are the MVP.  Robbie, you are Knocked Out!';
-} elseif ($player1 < $player2) {
-    $winner = 'Player 2! Congrats Robbie, you are the MVP.  Lynette, you are Knocked Out!';
-} elseif 
-    ($player1 == $player2) {
-    $winner = 'Neither player, it is a tie. Play another round in Overtime.';
-}
-// The above PHP code works for game and overtime as needed
-
-?>
-
+<?php require 'index-controller.php'; ?>
 <!DOCTYPE html>
 <html lang='en'>
 
@@ -79,7 +59,7 @@ if ($player1 > $player2) {
 
   <header>
     <h1>Knockout 3-Pt Shooting Game <br> Trailblazers MVP Version 1.16.15 beta</h1>
-    <!-- Minimum Viable Product/Most Valuable Player -->
+    <!-- Minimum Viable Product for the Most Valuable Player -->
     <img alt='WBCBL Trailblazers Basketball Player Logo' src='https://pbs.twimg.com/media/CBfUlbsVAAANjUG?format=jpg' class="center">
   </header>
 
