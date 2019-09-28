@@ -9,49 +9,8 @@
   <meta name="description" content="Basic PHP Basketball Game Simulator APP">
   <meta name="author" content="Robelyn Garcia">
 
-  <!-- Create external CSS file? -->
-<style>
-
-      h1 {
-        color: #003399;
-        text-align: center;
-        border-bottom: thick solid #FF6600;
-      }
-
-      h2 {
-        color: #003399;
-      }
-    
-    h3 {
-        color: #003399;
-        text-align: center;
-        font-size: 125%;
-      }
-
-      p {
-        display: inline-block;
-        text-align: left;
-      }
-
-      img { 
-	width: 25rem;
-      }
-
-      .center {
-  	display: block;
-  	margin-left: auto;
-  	margin-right: auto;	
-	}
-
-      footer {
-        margin: auto;
-        text-align: center;
-        font-size: 110%;
-        font-weight: bold;
-        border-top: thick solid #FF6600;
-      }
-
-    </style>
+<!-- External CSS file providing Separation of Concerns (SoC). -->
+<link rel="stylesheet" href="style.css">
 
 </head>
 
