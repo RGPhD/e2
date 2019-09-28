@@ -27,8 +27,11 @@
 ## Outside resources
 + There are a myriad of ways to play Knockout.  I have included a link to the output of a simple Google search of *Knockout Basketball Game* below:
 <https://www.google.com/search?q=knockout+basketball+game>
-+ Photo courtesy of Jr.NBA-WNBA and retrieved from <https://twitter.com/jrnbawnba/status/583168416858558464>. 
++ Photo courtesy of Jr. NBA-WNBA and WBCBL. Retrieved from <https://twitter.com/WomensProHoops/status/1177920444466257922>. 
 
 ## Notes for instructor
 + I selected the *MVP Professional Player* version of Knockout where the players only shoot 3-pointers.
 + I used my local production server and Paiza Online PHP Editor to test my code https://paiza.io/projects/3PG2GLRQ6TyK4Pd_d2UCAg
++ I used my local production server and CodePen to test my HTML and CSS code
+https://codepen.io/DrRobelynGarcia/pen/dybwOZL
+

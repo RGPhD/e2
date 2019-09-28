@@ -19,7 +19,8 @@
   <header>
     <h1>Knockout 3-Pt Shooting Game <br> Trailblazers MVP Version 1.16.15 beta</h1>
     <!-- Minimum Viable Product for the Most Valuable Player -->
-    <img alt='WBCBL Trailblazers Basketball Player Logo' src='https://pbs.twimg.com/media/CBfUlbsVAAANjUG?format=jpg' class="center">
+    <!-- Photo credit Jr. NBA-WNBA and WBCBL https://twitter.com/WomensProHoops/status/1177920444466257922 -->
+    <img alt='WBCBL Trailblazers Basketball Player Logo' src='https://pbs.twimg.com/media/EFjQZiTUwAAjpA3?format=jpg' class="center">
   </header>
 
   <h2>Mechanics</h2>
