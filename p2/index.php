@@ -20,7 +20,9 @@
     <h1>Knockout 3-Pt Shooting Game <br> Trailblazers MVP Version 1.16.15 beta</h1>
     <!-- Minimum Viable Product for the Most Valuable Player -->
     <!-- Photo credit Jr. NBA-WNBA and WBCBL https://twitter.com/WomensProHoops/status/1177920444466257922 -->
-    <img alt='WBCBL Trailblazers Basketball Player Logo' src='https://pbs.twimg.com/media/EFjQZiTUwAAjpA3?format=jpg' class="center">
+    <a href="https://twitter.com/WomensProHoops/status/1177920444466257922" title="Click or Tap for original source." target="blank">
+<img alt='WBCBL Trailblazers Basketball Players Logo' src="https://pbs.twimg.com/media/EFjQZiTUwAAjpA3.jpg" class="center">
+</a>
   </header>
 
   <h2>Mechanics</h2>
@@ -49,7 +51,7 @@
   <footer>
     <p>MVP ~ The Minimum Viable Product for The Most Valuable Player</p>
     <br>
-    <strong><a href="https://hesweb.dev/e2" target="_blank" title="Click to visit Harvard Extension School: Web Programming for Beginners with PHP">Harvard University Extension School: DGMD E-2 Web Programming with PHP
+    <strong><a href="https://hesweb.dev/e2" target="_blank" title="Click or Tap to visit Harvard Extension School: Web Programming for Beginners with PHP">Harvard University Extension School: DGMD E-2 Web Programming with PHP
           </a></strong>
   </footer>
   <br>

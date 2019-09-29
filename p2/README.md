@@ -34,4 +34,3 @@
 + I used my local production server and Paiza Online PHP Editor to test my code https://paiza.io/projects/3PG2GLRQ6TyK4Pd_d2UCAg
 + I used my local production server and CodePen to test my HTML and CSS code
 https://codepen.io/DrRobelynGarcia/pen/dybwOZL
-
