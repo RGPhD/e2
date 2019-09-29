@@ -21,9 +21,7 @@
     <!-- Minimum Viable Product for the Most Valuable Player -->
     <!-- Photo credit Jr. NBA-WNBA and WBCBL https://twitter.com/WomensProHoops/status/1177920444466257922 -->
 
-    <a href="https://twitter.com/WomensProHoops/status/1177920444466257922" title="Click or Tap for original source." target="blank">
-<img alt='WBCBL Trailblazers Basketball Players Logo' src="https://pbs.twimg.com/media/EFjQZiTUwAAjpA3.jpg" class="center">
-</a>
+    <img alt='WBCBL Trailblazers Basketball Players Logo' src="https://pbs.twimg.com/media/EFjQZiTUwAAjpA3.jpg" class="center" title="Lynette Woodard and Robbie Garcia WBCBL Trailblazers.">
 
   </header>
 
