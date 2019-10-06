@@ -11,5 +11,5 @@
 
 ## Notes for instructor and graduate student peer reviewer
 + I used my local production server and CodePen to test my HTML and CSS code
-<https://codepen.io/DrRobelynGarcia/gOOYMmz>.
-+ I used my local production server and JsFiddle to test my HTML and CSS code for the Overtime Trivia Challenge <https://jsfiddle.net/RobelynGarcia/zfujpgkm>.
+<https://codepen.io/DrRobelynGarcia/full/gOOYMmz>.
++ I used my local production server and JsFiddle to test my HTML and CSS code for the extra WBA Trivia Challenge <https://jsfiddle.net/RobelynGarcia/zfujpgkm>.
