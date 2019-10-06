@@ -31,7 +31,7 @@
     </ul>  
     <form method='GET' action='process.php'>
       <fieldset>
-        <legend>Enter your Information</legend>
+        <legend>Enter your Information:</legend>
         <div>
           <label for='name'>Name</label>
           <input type='text' id='name' name='name' placeholder='name is required' autofocus> <!-- Using placeholder because it lets users click at the beginning of text box instead of value attribute. Although value does have darker and more visible text. -->
@@ -42,7 +42,7 @@
           <input type='email' id='email' placeholder='e-mail is optional'>
         </div>
         <br>
-        <p>Pick your Championship Team</p>
+        <p>Pick your Championship Team:</p>
         <div>
           <input type='radio' value='Chicago' id='Chicago' name='team'>
           <label for='Chicago'> Chicago Twisters</label>

@@ -28,7 +28,7 @@
     <form method='GET' action='wbatriviaprocess.php'>
         <fieldset>
         <h2>Who is the founder of the Women’s Basketball Association (WBA)?</h2>
-        <p>Select your answer</p>
+        <p>Select your answer:</p>
         <div>
           <input type='radio' value='Lightning Mitchell' id='Lightning Mitchell' name='founder' checked>
           <label for='Lightning Mitchell'> Lightning Mitchell</label>
