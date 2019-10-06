@@ -1,6 +1,6 @@
 # DGMD e2 Practice
 + By: *Robelyn Garcia*
-Course work for DGMD E-2
++ Course work for DGMD E-2
 <https://hesweb.dev/e2>
 
 ## Practice APPs
