@@ -24,7 +24,7 @@
     <nav class="sitenav">
     <ul>
       <li class="youarehere"><a href="http://p3.robelyngarcia.me">Game Home</a></li>
-      <li><a href="http://practice.robelyngarcia.me/p3game/wbatrivia.php">Game Trivia</a></li>
+      <li><a href="http://p3.robelyngarcia.me/wbatrivia.php">Game Trivia</a></li>
       <li><a href="https://github.com/RGPhD/e2/tree/master/p3" target="blank">Game Code</a></li>
     </ul>
   </nav>
@@ -41,7 +41,7 @@
       <li class='feedback'>Congrats, you are correct! Learn all about the WBA Founder by listening to his <a href="https://www.amazon.com/Vision-Untold-Basketball-Association-Updated/dp/B07SF7YM2D" target="_blank" title="Click to visit the WBA Book Page on Amazon"> Audio Book</a> or seeing his <a href="https://www.wbathevision.com/the-vision-is-coming-to-kansas-city" target="_blank" title="Click to visit the WBA Vision Movie Page"> Film</a>!</li>
       </ul>
     <div>
-      <button class='refresh'><a class='refresh' title="Play Again" href="http://practice.robelyngarcia.me/p3game/">Click to Return Home and or Play Again</a></button>
+      <button class='refresh'><a class='refresh' title="Play Again" href="http://p3.robelyngarcia.me">Click to Return Home and or Play Again</a></button>
     </div>
     <h3>Thanks for Playing the WBA Fantasy Basketball Game!</h3>
     
@@ -53,7 +53,7 @@
       <li class='feedback'>You are incorrect. But you can learn all about the WBA Founder by listening to his <a href="https://www.amazon.com/Vision-Untold-Basketball-Association-Updated/dp/B07SF7YM2D" target="_blank" title="Click to visit the WBA Book Page on Amazon"> Audio Book</a> or seeing his <a href="https://www.wbathevision.com/the-vision-is-coming-to-kansas-city" target="_blank" title="Click to visit the WBA Vision Movie Page"> Film</a>!</li>
       </ul>
     <div>
-      <button class='refresh'><a class='refresh' title="Return Home and Play Again" href="http://practice.loc/p3game/">Click to Return Home and or Play Again</a></button>
+      <button class='refresh'><a class='refresh' title="Return Home and Play Again" href="http://p3.robelyngarcia.me">Click to Return Home and or Play Again</a></button>
     </div>
     <h3>Thanks for Playing the WBA Fantasy Basketball Game!</h3>
     
