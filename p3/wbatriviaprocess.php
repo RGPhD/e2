@@ -40,8 +40,8 @@
       <li>The Founder of the WBA is Lightning Ned Mitchell.</li>
       <li class='feedback'>Congrats, you are correct! Learn all about the WBA Founder by listening to his <a href="https://www.amazon.com/Vision-Untold-Basketball-Association-Updated/dp/B07SF7YM2D" target="_blank" title="Click to visit the WBA Book Page on Amazon"> Audio Book</a> or seeing his <a href="https://www.wbathevision.com/the-vision-is-coming-to-kansas-city" target="_blank" title="Click to visit the WBA Vision Movie Page"> Film</a>!</li>
       </ul>
-    <div>
-      <button class='refresh'><a class='refresh' title="Play Again" href="http://p3.robelyngarcia.me">Click to Return Home and or Play Again</a></button>
+      <div>
+    <h2><a class='or' class='refresh' title="Return Home and Play Again" href="http://p3.robelyngarcia.me">Click to Return Home and or Play Again</a></h2>
     </div>
     <h3>Thanks for Playing the WBA Fantasy Basketball Game!</h3>
     
@@ -53,14 +53,13 @@
       <li class='feedback'>You are incorrect. But you can learn all about the WBA Founder by listening to his <a href="https://www.amazon.com/Vision-Untold-Basketball-Association-Updated/dp/B07SF7YM2D" target="_blank" title="Click to visit the WBA Book Page on Amazon"> Audio Book</a> or seeing his <a href="https://www.wbathevision.com/the-vision-is-coming-to-kansas-city" target="_blank" title="Click to visit the WBA Vision Movie Page"> Film</a>!</li>
       </ul>
     <div>
-      <a class='refresh' title="Return Home and Play Again" href="http://p3.robelyngarcia.me">Click to Return Home and or Play Again</a>
+    <h2><a class='or' class='refresh' title="Return Home and Play Again" href="http://p3.robelyngarcia.me">Click to Return Home and or Play Again</a></h2>
     </div>
     <h3>Thanks for Playing the WBA Fantasy Basketball Game!</h3>
     
       <?php } ?>
 
-      <!-- Using a button to retrun to original game page instead of a link to play trivia again since there is only one answer. <a href='wbatrivia.php'>Play again...</a> -->
-
+      <!-- Using a link to play again url since because I received error with link inside button. -->
 
     <br>
     <footer>

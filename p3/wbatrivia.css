@@ -91,6 +91,13 @@ button {
   font-size: 2rem;
 }
 
+.or {
+  margin-left: 2rem;
+  font-weight: bold;
+  color: white;
+  font-size: 110%;
+}
+
 .refresh {
   margin-left: 1.55rem;
 }
