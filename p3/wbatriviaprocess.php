@@ -23,8 +23,8 @@
 
     <nav class="sitenav">
     <ul>
-      <li class="youarehere"><a href="http://p3.robelyngarcia.me">Game Home</a></li>
-      <li><a href="http://p3.robelyngarcia.me/wbatrivia.php">Game Trivia</a></li>
+      <li><a href="http://p3.robelyngarcia.me">Game Home</a></li>
+      <li class="youarehere"><a href="http://p3.robelyngarcia.me/wbatrivia.php">Game Trivia</a></li>
       <li><a href="https://github.com/RGPhD/e2/tree/master/p3" target="blank">Game Code</a></li>
     </ul>
   </nav>
