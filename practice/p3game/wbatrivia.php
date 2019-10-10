@@ -20,6 +20,14 @@
       <img alt='WBA Womens Basketball Association Logo' title='WBA Womens Basketball Association Logo' src='https://www.wbathevision.com/VISION/wp-content/uploads/WBA.png' class="center">
     </header>
 
+    <nav class="sitenav">
+    <ul>
+      <li><a href="http://p3.robelyngarcia.me">Game Home</a></li>
+      <li class="youarehere"><a href="http://p3.robelyngarcia.me/wbatrivia.php">Game Trivia</a></li>
+      <li><a href="https://github.com/RGPhD/e2/tree/master/p3" target="blank">Game Code</a></li>
+    </ul>
+  </nav>
+
     <h2 class='overtime'>WBA Trivia Challenge</h2>
 
 
@@ -30,12 +38,12 @@
         <h2>Who is the founder of the Women’s Basketball Association (WBA)?</h2>
         <p>Select your answer:</p>
         <div>
-          <input type='radio' value='Lightning Mitchell' id='Lightning Mitchell' name='founder' checked>
-          <label for='Lightning Mitchell'> Lightning Mitchell</label>
+          <input type='radio' value='Lightning Mitchell' id='LightningMitchell' name='founder' checked>
+          <label for='LightningMitchell'> Lightning Mitchell</label>
         </div>
         <div>
-        <input type='radio' value='Val Ackerman<' id='Val Ackerman<' name='founder'>
-        <label for='Val Ackerman<'> Val Ackerman</label>
+        <input type='radio' value='Val Ackerman<' id='ValAckerman<' name='founder'>
+        <label for='ValAckerman<'> Val Ackerman</label>
         </div>
 
 

@@ -32,8 +32,6 @@
     <h2 class='overtime'>WBA Trivia Challenge</h2>
 
     <!-- Using GET default method -->
-
-
     <?php if ($correct) { ?>
         <h2>WBA Trivia Results:</h2>
     <ul>
@@ -41,7 +39,7 @@
       <li class='feedback'>Congrats, you are correct! Learn all about the WBA Founder by listening to his <a href="https://www.amazon.com/Vision-Untold-Basketball-Association-Updated/dp/B07SF7YM2D" target="_blank" title="Click to visit the WBA Book Page on Amazon"> Audio Book</a> or seeing his <a href="https://www.wbathevision.com/the-vision-is-coming-to-kansas-city" target="_blank" title="Click to visit the WBA Vision Movie Page"> Film</a>!</li>
       </ul>
       <div>
-    <h2><a class='or' class='refresh' title="Return Home and Play Again" href="http://p3.robelyngarcia.me">Click to Return Home and or Play Again</a></h2>
+    <h2><a class='or' title="Return Home and Play Again" href="http://p3.robelyngarcia.me">Click to Return Home and or Play Again</a></h2>
     </div>
     <h3>Thanks for Playing the WBA Fantasy Basketball Game!</h3>
     
@@ -53,7 +51,7 @@
       <li class='feedback'>You are incorrect. But you can learn all about the WBA Founder by listening to his <a href="https://www.amazon.com/Vision-Untold-Basketball-Association-Updated/dp/B07SF7YM2D" target="_blank" title="Click to visit the WBA Book Page on Amazon"> Audio Book</a> or seeing his <a href="https://www.wbathevision.com/the-vision-is-coming-to-kansas-city" target="_blank" title="Click to visit the WBA Vision Movie Page"> Film</a>!</li>
       </ul>
     <div>
-    <h2><a class='or' class='refresh' title="Return Home and Play Again" href="http://p3.robelyngarcia.me">Click to Return Home and or Play Again</a></h2>
+    <h2><a class='or' title="Return Home and Play Again" href="http://p3.robelyngarcia.me">Click to Return Home and or Play Again</a></h2>
     </div>
     <h3>Thanks for Playing the WBA Fantasy Basketball Game!</h3>
     

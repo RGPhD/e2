@@ -38,12 +38,12 @@
         <h2>Who is the founder of the Women’s Basketball Association (WBA)?</h2>
         <p>Select your answer:</p>
         <div>
-          <input type='radio' value='Lightning Mitchell' id='Lightning Mitchell' name='founder' checked>
-          <label for='Lightning Mitchell'> Lightning Mitchell</label>
+          <input type='radio' value='Lightning Mitchell' id='LightningMitchell' name='founder' checked>
+          <label for='LightningMitchell'> Lightning Mitchell</label>
         </div>
         <div>
-        <input type='radio' value='Val Ackerman<' id='Val Ackerman<' name='founder'>
-        <label for='Val Ackerman<'> Val Ackerman</label>
+        <input type='radio' value='Val Ackerman<' id='ValAckerman<' name='founder'>
+        <label for='ValAckerman<'> Val Ackerman</label>
         </div>
 
 

@@ -20,13 +20,52 @@ h3 {
   font-size: 125%;
 }
 
+nav.sitenav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav.sitenav li {
+  display: inline-block;
+  width: 8em;
+  text-align: center;
+}
+
+nav.sitenav a {
+  display: block;
+  font-weight: bold;
+  padding: 0.45em;
+}
+
+nav.sitenav a:link,
+nav.sitenav a:visited,
+nav.sitenav a:hover,
+nav.sitenav a:active {
+  color: red;
+  text-decoration: none;
+  border: solid red;
+  border-radius: .75rem;
+}
+
+nav.sitenav a:hover {
+  color: white;
+  border: solid #000066;
+}
+
+nav.sitenav li.youarehere a {
+  background-color: #000066;
+  border: solid red;
+  border-radius: .75rem;
+}
+
 p {
   display: inline-block;
   text-align: left;
 }
 
 img {
-    width: 11rem;
+    width: 15rem;
     float: right;
     margin-right: 1rem;
   }
@@ -52,6 +91,13 @@ button {
   font-size: 2rem;
 }
 
+.or {
+  margin-left: 2rem;
+  font-weight: bold;
+  color: white;
+  font-size: 110%;
+}
+
 .refresh {
   margin-left: 1.55rem;
 }
@@ -61,12 +107,6 @@ a.refresh {
   text-decoration: none;
   margin: auto;
 }
-
-/* .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
 
 .feedback {
   font-weight: bold;
