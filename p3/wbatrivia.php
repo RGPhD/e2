@@ -16,7 +16,6 @@
   <body>
     <header>
       <h1>WBA Fantasy Basketball <br> Championship Game Version 8.11.93 beta</h1>
-      <!-- Minimum Viable Product for the Most Valuable Player -->
       <img alt='WBA Womens Basketball Association Logo' title='WBA Womens Basketball Association Logo' src='https://www.wbathevision.com/VISION/wp-content/uploads/WBA.png' class="center">
     </header>
 
@@ -30,8 +29,8 @@
 
     <h2 class='overtime'>WBA Trivia Challenge</h2>
 
-
     <h2>WBA Trivia Question:</h2>
+
     <!-- Using GET default method -->
     <form method='GET' action='wbatriviaprocess.php'>
         <fieldset>
@@ -46,15 +45,11 @@
         <label for='ValAckerman<'> Val Ackerman</label>
         </div>
 
-
-       <!-- <label for='answer'>Your Answer:</label>
-        <input type='text' name='answer' id='answer'> -->
+        <!-- From Professor Susan's code <label for='answer'>Your Answer:</label> -->
 
         <button type='submit'>Submit Your Answer</button>
         </fieldset>
     </form>
-
-
 
     <br>
     <footer>

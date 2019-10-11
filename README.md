@@ -7,6 +7,7 @@
 + *Practice Workflow setup*
 + Production URL: <http://practice.robelyngarcia.me>
 + Production URL: <http://practice.robelyngarcia.me/bank.php>
++ Production URL: <http://practice.robelyngarcia.me/p3game>
 
 ## Project 1
 + *Workflow setup*

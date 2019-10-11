@@ -30,7 +30,6 @@
 
     <h2 class='overtime'>WBA Trivia Challenge</h2>
 
-
     <h2>WBA Trivia Question:</h2>
     <!-- Using GET default method -->
     <form method='GET' action='wbatriviaprocess.php'>
@@ -46,15 +45,11 @@
         <label for='ValAckerman<'> Val Ackerman</label>
         </div>
 
-
-       <!-- <label for='answer'>Your Answer:</label>
-        <input type='text' name='answer' id='answer'> -->
+       <!-- From Professor Susan's code example <label for='answer'>Your Answer:</label> -->
 
         <button type='submit'>Submit Your Answer</button>
         </fieldset>
     </form>
-
-
 
     <br>
     <footer>

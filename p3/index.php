@@ -17,7 +17,6 @@
   <body>
     <header>
       <h1>WBA Fantasy Basketball <br> Championship Game Version 8.11.93 beta</h1>
-      <!-- Minimum Viable Product for the Most Valuable Player -->
       <img alt='WBA Womens Basketball Association Logo' title='WBA Womens Basketball Association Logo' src='https://www.wbathevision.com/VISION/wp-content/uploads/WBA.png' class="center">
     </header>
 
@@ -66,7 +65,7 @@
 
     <?php if ($showResults) { ?>
     <h2>Results: <?php echo $results['name']; ?></h2> 
- <!-- Name of Player goes after Results h2 unless Player does not enter a name, then just the Results h2 header will return -->
+ <!-- Name of Player goes after Results h2 unless Player does not enter a name, then just the Results h2 header will return. -->
 <ul>      
       <li>The WBA Champion is:
         <?php echo $results['play']; ?>

@@ -31,7 +31,6 @@
 
     <h2 class='overtime'>WBA Trivia Challenge</h2>
 
-    <!-- Using GET default method -->
     <?php if ($correct) { ?>
         <h2>WBA Trivia Results:</h2>
     <ul>
