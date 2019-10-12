@@ -4,6 +4,7 @@ session_start();
 $winner = null;
 
 $name = $_GET['name'];
+$email = $_GET['email'];
 
 $champion = ['Chicago', 'Kansas'];
 $team = $_GET['team'];
@@ -13,11 +14,13 @@ if ($team == $play) {
 } else {
     $winner = false;
 }
+
 $results = [
     'winner' => $winner,
     'play' => $play,
     'team' => $team,
     'name' => $name,
+    'email' => $email,
 ];
 
 $_SESSION['results'] = $results;

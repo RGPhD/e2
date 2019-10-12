@@ -28,7 +28,7 @@
     </ul>
   </nav>
 
-    <h2>Instructions:</h2>
+    <h2>Game Instructions:</h2>
     <ul>
       <li>Choose your Championship Team.</li>
       <li>Pick between the Kansas Crusaders (93 Champs) or the Chicago Twisters (95 Champs).</li>
@@ -46,7 +46,7 @@
 
         <div>
           <label for='email'>e-mail </label>
-          <input type='email' id='email' placeholder='e-mail is optional'>
+          <input type='email' id='email' name='email' placeholder='e-mail is optional'>
         </div>
         <br>
         <p>Pick your Championship Team:</p>
@@ -64,8 +64,8 @@
     </form>
 
     <?php if ($showResults) { ?>
-    <h2>Results: <?php echo $results['name']; ?></h2> 
- <!-- Name of Player goes after Results h2 unless Player does not enter a name, then just the Results h2 header will return. -->
+    <h2>Your Results: <?php echo $results['name']; ?> <?php echo $results['email']; ?></h2> 
+ <!-- Name of Player and email output here after Results h2 unless Player does not enter this data, then just the Results h2 header will return. -->
 <ul>      
       <li>The WBA Champion is:
         <?php echo $results['play']; ?>
