@@ -38,4 +38,4 @@
 + I used my local production server and CodePen to test my HTML and CSS code
 <https://codepen.io/DrRobelynGarcia/full/gOOYMmz>.
 + I used my local production server and JsFiddle to test my HTML and CSS code for the WBA Trivia Challenge <https://jsfiddle.net/RobelynGarcia/zfujpgkm>.
-+ I included the email input in the form just to practice coding HTML forms. I did not require the Player to enter their email address.
++ I included the email input in the form just to practice coding HTML forms. I did not require the Player to enter their email address. However, if the Player did enter their email address I echoed it to the page after the output of their name.
