@@ -56,7 +56,7 @@
     
       <?php } ?>
 
-      <!-- Using a link to the play again URL since because I received error with link inside my button. -->
+      <!-- Using a link to the play again URL because I received an error with the link inside my button. -->
 
     <br>
     <footer>
