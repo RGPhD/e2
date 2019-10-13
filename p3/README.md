@@ -6,6 +6,7 @@
 * Define a winner variable, this will be null at the beginning of the game.
 * The player enters their name in the name input box.
      * The name the player enters will be a string output in the results.
+     * A coded placeholder value inside the name text box states “name is required”. However, the game will run without the Player entering their name.
 * The player can also optionally enter their email in the email input box.
 * The player randomly picks a team of their choice: Kansas or Chicago.
      * Create an array with these two values: Kansas and Chicago.
@@ -38,4 +39,4 @@
 + I used my local production server and CodePen to test my HTML and CSS code
 <https://codepen.io/DrRobelynGarcia/full/gOOYMmz>.
 + I used my local production server and JsFiddle to test my HTML and CSS code for the WBA Trivia Challenge <https://jsfiddle.net/RobelynGarcia/zfujpgkm>.
-+ I included the email input in the form just to practice coding HTML forms. I did not require the Player to enter their email address. However, if the Player did enter their email address I echoed it to the page after the output of their name.
++ I included the name and email input in the form. The game does not strictly require the Player to enter their name and or email address to function. However, if the Player does enter their name and or email address, it will be echoed to the page after the output of “Your Results:”.
