@@ -14,4 +14,8 @@ class AppController extends Controller
             'welcome' => $welcomes[array_rand($welcomes)]
         ]);
     }
+
+    public function about()
+    { return 'zipfoods is your one-stop-shop for convenient online grocery shopping in the greater Boston area.';
+    }
 }
