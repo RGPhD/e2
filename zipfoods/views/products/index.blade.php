@@ -6,11 +6,18 @@ All Products
 
 @section('content')
 <h2>All products</h2>
-
-<p>{{ $app->config('app.name') }} is your one-stop-shop for convenient online grocery shopping in the greater Boston area.
-</p>
+ 
+<div id='product-index'>
+@foreach($products as $product)
+<a href='/product?id={{ $product['id'] }}'>
+<div class='product'>
+    <div class='product-name'>{{ $product['name'] }}</div>
+    <img class='product-thumb' src="/images/products/{{ $product['id'] }}.jpg">
+    </div>
+@endforeach
+</div>
 
 <p>
-<a href='/products'>Check out our selection of products...</a>
+<a href='http://zipfoods.robelyngarcia.me'>ZipFoods Home</a>
 </p>
 @endsection
