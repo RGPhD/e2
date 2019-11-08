@@ -1,14 +1,19 @@
 <?php
 namespace App\Controllers;
 
+use App\Products;
+
 class ProductController extends Controller
 {
     public function index()
     {
-        return 'Show all the products here ...';
+        $products = new Products($this->app->path('database/products.json'));
+
+        return $this->app->view('products.index');
     }
+    
     public function show()
     {
-        return 'Show details for an individual product ...';
+        return 'Show individual products here ...';
     }
 }

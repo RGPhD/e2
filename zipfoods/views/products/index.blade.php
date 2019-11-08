@@ -1,11 +1,11 @@
 @extends('templates.master')
 
 @section('title')
-{{ $app->config('app.name') }}
+All Products
 @endsection
 
 @section('content')
-<h2>Welcome!</h2>
+<h2>All products</h2>
 
 <p>{{ $app->config('app.name') }} is your one-stop-shop for convenient online grocery shopping in the greater Boston area.
 </p>
