@@ -7,4 +7,8 @@ class ProductController extends Controller
     {
         return 'Show all the products here ...';
     }
+    public function show()
+    {
+        return 'Show details for an individual product ...';
+    }
 }

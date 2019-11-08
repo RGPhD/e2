@@ -1,0 +1,84 @@
+/*----------------------------------------------------
+Master view
+-----------------------------------------------------*/
+main {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    margin: 40px 0;
+}
+
+
+#logo {
+    /* Actual width is 636; displaying at half-size for retina screens */
+    width: 318px;
+}
+
+
+/*----------------------------------------------------
+Misc
+-----------------------------------------------------*/
+ul.error {
+    list-style-type: none;
+}
+
+
+/*----------------------------------------------------
+Product index
+-----------------------------------------------------*/
+#product-index .product {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+#product-index .product-name {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#product-index .product-thumb {
+    width: 100px;
+}
+
+
+/*----------------------------------------------------
+Product Show
+-----------------------------------------------------*/
+#product-show .product-image {
+    width: 200px;
+}
+
+#product-show .product-description {
+    padding: 10px;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+#product-show .product-price {
+    font-size: 1.1rem;
+}
+
+#product-review {
+    margin: 20px 0;
+    background-color: #f6f7f7;
+    padding: 10px;
+}
+
+#product-review input[type=text] {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+#product-review textarea {
+    height: 150px;
+}
