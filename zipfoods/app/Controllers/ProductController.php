@@ -23,7 +23,6 @@ class ProductController extends Controller
 
     public function show()
     {
-
         $id = $this->app->param('id');
 
         $product = $this->products->getById($id);
@@ -31,7 +30,7 @@ class ProductController extends Controller
         if (is_null($product)) {
             return $this->app->view('products.missing');
         }
-   
+
         return $this->app->view('products.show', [
             'product' => $product
         ]);
