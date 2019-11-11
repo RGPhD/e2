@@ -7,9 +7,7 @@ Product Not Found
 @section('content')
 <h2>Product
 
-<?php
-echo $_GET['id'];
-?>
+<?=$_GET['id'];?>
 
 Not Found.</h2>
 
