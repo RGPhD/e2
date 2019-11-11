@@ -5,14 +5,10 @@ Product Not Found
 @endsection
 
 @section('content')
-<h2>Product 
-
-{{-- This returns on all invalid/null product ids. Without this echo every invalid product id page will return the message without a number. --}}
+<h2>Product
 
 <?php
-$url = 'http://zipfoods.robelyngarcia.me/product?id=99';
-$str = substr(strrchr($url, '='), 1);
-echo $str;    
+echo $_GET['id'];
 ?>
 
 Not Found.</h2>
