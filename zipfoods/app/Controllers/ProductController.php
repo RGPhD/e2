@@ -25,6 +25,11 @@ class ProductController extends Controller
     {
         $id = $this->app->param('id');
 
+        # If entered /product route, rredirect to /products page
+        if (is_null($id)) {
+            $this->app->redirect('/products');
+        }
+
         $product = $this->products->getById($id);
 
         if (is_null($product)) {
