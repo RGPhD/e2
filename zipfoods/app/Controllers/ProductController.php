@@ -25,7 +25,7 @@ class ProductController extends Controller
     {
         $id = $this->app->param('id');
 
-        # If entered /product route, rredirect to /products page
+        # If entered /product route, redirect to /products page
         if (is_null($id)) {
             $this->app->redirect('/products');
         }
@@ -36,8 +36,22 @@ class ProductController extends Controller
             return $this->app->view('products.missing');
         }
 
+        $name = $this->app->old('name');
+   
         return $this->app->view('products.show', [
-            'product' => $product
+            'product' => $product,
+            'name' => $name,
         ]);
+    }
+
+    public function saveReview()
+    {
+        //code check dump($_POST);
+        $name = $this->app->input('name');
+        $review = $this->app->input('review');
+        $id = $this->app->input('id');
+
+        $this->app->redirect('/product?id='.$id, ['name' => $name]);
+  
     }
 }
