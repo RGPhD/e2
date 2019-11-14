@@ -7,7 +7,9 @@
 @section('content')
 
 @if($name)
+<div class='alert alert-success'>
     Thank you, {{ $name }} for your review!
+</div>
 @endif
 
 <div id='product-show'>
