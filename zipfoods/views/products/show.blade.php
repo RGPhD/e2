@@ -6,6 +6,14 @@
 
 @section('content')
 
+@if($app->errorsExist())
+<ul class='error alert alert-danger'>
+    @foreach($app->errors() as $error)
+    <li>{{ $error }}</li>
+    @endforeach
+</ul>
+@endif
+
 @if($name)
 <div class='alert alert-success'>
     Thank you, {{ $name }} for your review!
