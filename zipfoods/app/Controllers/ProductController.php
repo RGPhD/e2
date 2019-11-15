@@ -47,11 +47,11 @@ class ProductController extends Controller
     public function saveReview()
     {
 
-        #  $this->app->validate([
-        #   'name' => 'required',
-        #   'required' => 'required'|'minLength:200', # Multiple validation rules are separated by a |
+          $this->app->validate([
+           'name' => 'required',
+           'review' => 'required|minLength:200', # Multiple validation rules are separated by a |
              # Some rules accept paramaters, which follow a :
-        # ]);
+         ]);
         
 
         //code check dump($_POST);
