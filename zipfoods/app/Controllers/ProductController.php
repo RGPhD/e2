@@ -54,7 +54,7 @@ class ProductController extends Controller
          ]);
         
 
-        //code check dump($_POST);
+        //code check by using dump($_POST);
         $name = $this->app->input('name');
         $review = $this->app->input('review');
         $id = $this->app->input('id');

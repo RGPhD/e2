@@ -5,6 +5,8 @@
 @endsection
 
 @section('content')
+ 
+
 
 @if($app->errorsExist())
 <ul class='error alert alert-danger'>
