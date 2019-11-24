@@ -63,7 +63,7 @@ $statement = $pdo->query($sql);
 # https://www.php.net/manual/en/pdostatement.fetchall.php
 dump($statement->fetchAll());
 
-# Creat data EXAMPLE 2
+# Create data EXAMPLE 2
 //$sql = "INSERT INTO products (name, description, price, available, weight, perishable) 
 //values (
    // 'New Driscoll’s Strawberries', 
@@ -89,9 +89,20 @@ $values = [
     'perishable' => 1,
 ];
 
-$statement = $pdo->prepare($sqlTemplate);
-$statement->execute($values);
+# Prepare and Execute
+//$statement = $pdo->prepare($sqlTemplate);
+//$statement->execute($values);
     
+}
+
+public function practice2() {
+
+    //dump($this->app->db()->all('products'));
+
+   //dump($this->app->db()->findById('products', 6));
+
+   dump($this->app->db()->findByColumn('products', 'available', '<', 10));
+
 }
 
 }

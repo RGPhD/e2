@@ -8,4 +8,5 @@ return [
     '/products/save-review' => ['ProductController', 'saveReview'],
     '/product' => ['ProductController', 'show'],
     '/practice' => ['AppController', 'practice'],
+    '/practice2' => ['AppController', 'practice2']
 ];
