@@ -39,12 +39,23 @@
         </div>
 
         <div class='form-group'>
-            <label for='review'>Review</label>
-            <textarea name='review' id='review' class='form-control'>{{ $app->old('review') }}</textarea>
+            <label for='content'>Review</label>
+            <textarea name='content' id='content' class='form-control'>{{ $app->old('content') }}</textarea>
         </div>
-
         <button type='submit' class='btn btn-primary'>Submit Review</button>
     </form>
+
+     <h3>Reviews</h3>
+    @if($reviews)
+    @foreach($reviews as $review)
+    <div class='review'>
+        <span class='review-name'>{{ $review['name'] }}</span>
+        <p>{{ $review['content'] }}</p>
+    </div>
+    @endforeach
+    @else
+    No reviews yet.
+    @endif
 </div>
 
 <a href='/products'>&larr; Return to all products</a>
