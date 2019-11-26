@@ -79,11 +79,11 @@ class ProductController extends Controller
     }
 
     #new for quiz 12
-    /*public function new()
+    public function new()
     {
         return 'New products form for visitors. Name, description, 
         price, available, weight, and perishable.';
 
         # Extract data from the new product form submission
-    }*/
+    }
 }
