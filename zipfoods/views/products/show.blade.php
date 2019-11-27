@@ -58,6 +58,8 @@
     @endif
 </div>
 
+     
+
 <a href='/products'>&larr; Return to all products</a>
 
 @endsection

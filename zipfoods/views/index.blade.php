@@ -13,4 +13,9 @@
 <p>
 <a href='/products'>Check out our selection of products...</a>
 </p>
+<hr>
+<p>
+<a href='/products/new'>Add a product here.</a>
+</p>
+
 @endsection
