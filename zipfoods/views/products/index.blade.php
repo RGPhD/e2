@@ -9,15 +9,19 @@ All Products
  
 <div id='product-index'>
 @foreach($products as $product)
-<a href='/product?id={{ $product['id'] }}'>
+<a href="/product?id={{ $product['id'] }}">
 <div class='product'>
     <div class='product-name'>{{ $product['name'] }}</div>
-    <img class='product-thumb' src="/images/products/{{ $product['id'] }}.jpg">
+
+    @if($product['id'] > 10)       
+        <img class='product-thumb' src='/images/zipfoods-logo.png' alt='ZipFoods Logo' alt='zipfoods image'>     
+    @else          
+        <img class='product-thumb' src="/images/products/{{ $product['id'] }}.jpg">           
+    @endif
+
     </div>
 @endforeach
 </div>
 
-<p>
-<a href='http://zipfoods.robelyngarcia.me'>ZipFoods Home</a>
-</p>
+<p><a href='/'>&larr; Return to {{ $app->config('app.name') }} Home Page</a></p>
 @endsection

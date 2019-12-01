@@ -22,7 +22,11 @@
 <div id='product-show'>
     <h2>{{ $product['name'] }}</h2>
 
-    <img src='/images/products/{{ $product["id"] }}.jpg' class='product-image'>
+    @if($product['id'] > 10)       
+        <img class='product-image' src='/images/zipfoods-logo.png' alt='ZipFoods Logo' alt='zipfoods image'>     
+    @else          
+        <img class='product-image' src="/images/products/{{ $product['id'] }}.jpg">           
+    @endif
 
     <p class='product-description'>
         {{ $product['description'] }}

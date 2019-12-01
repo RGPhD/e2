@@ -15,7 +15,7 @@
 </p>
 <hr>
 <p>
-<a href='/products/new'>Add a product here.</a>
+<a href='/products/new'>Add a new product here...</a>
 </p>
 
 @endsection

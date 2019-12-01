@@ -20,15 +20,17 @@ class ProductController extends Controller
     {
         $id = $this->app->param('id');
         # If entered /product route, redirect to /products page
-        if (is_null($id)) {
+        if (is_null($id)) 
+    {
             $this->app->redirect('/products');
-        }
+    }
 # to load individual products
         // take out: $product = $this->products->getById($id);
         $product = $this->app->db()->findById('products', $id);
-        if (is_null($product)) {
+        if (is_null($product)) 
+    {
             return $this->app->view('products.missing');
-        }
+    }
         #load review details here
         $reviews = $this->app->db()->findByColumn('reviews', 'product_id', '=', $id);
            //dump($reviews);
@@ -64,12 +66,45 @@ class ProductController extends Controller
   
     }
     #new for quiz 12
-    public function new()
-    {
-        return $this->app->view('new');
-       
-        #return 'New products form for visitors. Name, description, 
-        #price, available, weight, and perishable.';
-        # Extract data from the new product form submission
-   }
+ public function newProduct()
+ {
+     $confirmationName = $this->app->old('confirmationName');
+     
+     return $this->app->view('products.new', [
+         'confirmationName' => $confirmationName
+     ]);
+ }
+ # Add a product" form from the page /products/new
+ public function addProduct()
+ {
+     $this->app->validate([
+         'name' => 'required',
+         'description' => 'required',
+         'price' => 'required|numeric',
+         'available' => 'required|digit',
+         'weight' => 'required|numeric',
+         'perishable' => 'required'
+     ]);
+     # If validation fails user is redirected back to the "Add new a product" page
+     # Extract data from the form submission
+     $name = $this->app->input('name');
+     $description = $this->app->input('description');
+     $price = $this->app->input('price');
+     $available = $this->app->input('available');
+     $weight = $this->app->input('weight');
+     $perishable = $this->app->input('perishable');
+
+     # Insert into the products database
+     $data = [
+         'name' => $name,
+         'description' => $description,
+         'price' => $price,
+         'available' => $available,
+         'weight' => $weight,
+         'perishable' => $perishable,
+     ];
+     $this->app->db()->insert('products', $data);
+     $this->app->redirect('/products/new', ['confirmationName' => $name]);
+ }
+
 }
