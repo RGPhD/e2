@@ -49,11 +49,13 @@ class ProductController extends Controller
            'content' => 'required|minLength:200', # Multiple validation rules are separated by a |
              # Some rules accept paramaters, which follow a :
          ]);
+
+         $timestamp = strtotime('22-09-2008');
+         
          # Extract data from the form submission
         $name = $this->app->input('name');
         $content = $this->app->input('content');
         $id = $this->app->input('id');
-        $timestamp = $this->app->input('timestamp');
         //code check by using dump($_POST); extract form data below
         # Insert into the database
         $data = [
