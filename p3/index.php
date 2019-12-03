@@ -20,11 +20,12 @@
       <img alt='WBA Womens Basketball Association Logo' title='WBA Womens Basketball Association Logo' src='https://www.wbathevision.com/VISION/wp-content/uploads/WBA.png' class="center">
     </header>
 
-  <nav class="sitenav">
+    <nav class="sitenav">
     <ul>
-      <li class="youarehere"><a href="http://p3.robelyngarcia.me">Game Home</a></li>
-      <li><a href="http://p3.robelyngarcia.me/wbatrivia.php">Game Trivia</a></li>
-      <li><a href="https://github.com/RGPhD/e2/tree/master/p3" target="blank">Game Code</a></li>
+      <li><a href="http://p3.robelyngarcia.me">P3 Game</a></li>
+      <li><a href="http://p4.robelyngarcia.me">P4 Game</a></li>
+      <li class="youarehere"><a href="http://p3.robelyngarcia.me/wbatrivia.php">Game Trivia</a></li>
+      <li><a href="https://github.com/RGPhD/e2" target="blank">Game Code</a></li>
     </ul>
   </nav>
 
