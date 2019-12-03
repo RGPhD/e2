@@ -56,6 +56,7 @@
         <span class='review-name'>{{ $review['name'] }}</span>
         <p>{{ $review['content'] }}</p>
         <p>Entered at: <?= $review['timestamp'] ?></p>
+        
     </div>
     @endforeach
     @else
