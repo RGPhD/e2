@@ -1,0 +1,12 @@
+<?php
+
+define('DOC_ROOT', __DIR__.'/');
+
+# Initialize Composer autoloading
+require DOC_ROOT.'/vendor/autoload.php';
+
+# Initialize App object
+$app = new E2\App('console');
+
+# Invoke console
+echo $app->console($argv);
