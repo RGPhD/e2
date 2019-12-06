@@ -5,6 +5,8 @@ Individual Games
 @endsection
 
 @section('content')
+
+<h2>Indivdual Game Result</h2>
     
 <nav class="sitenav">
     <ul>

@@ -5,6 +5,8 @@ Game History
 @endsection
 
 @section('content')
+
+<h2>Game History</h2>
     
 <nav class="sitenav">
     <ul>
