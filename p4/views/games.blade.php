@@ -17,4 +17,6 @@ Game History
     </ul>
   </nav>
 
+  <a href="http://p4.robelyngarcia.me/game">P4 Individual Games</a>
+
 @endsection
