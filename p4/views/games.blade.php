@@ -19,4 +19,11 @@ Game History
 
   <a href="http://p4.robelyngarcia.me/game">P4 Individual Games</a>
 
+</ul>
+  @foreach($games as $game)
+ <li>{{ $game['name'] }}</li>
+
+  @endforeach
+  </ul>
+
 @endsection
