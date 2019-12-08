@@ -55,14 +55,13 @@ class ProductController extends Controller
         $name = $this->app->input('name');
         $content = $this->app->input('content');
         $id = $this->app->input('id');
-        $timestamp = $this->app->input('timestamp');
+        
         //code check by using dump($_POST); extract form data below
         # Insert into the database
         $data = [
             'name' => $name,
             'content' => $content,
             'product_id' => $id,
-            'timestamp' => $timestamp,
         ];
         #content of review change review to content in code
         $this->app->db()->insert('reviews', $data);

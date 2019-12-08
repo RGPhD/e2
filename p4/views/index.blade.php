@@ -31,10 +31,6 @@
           <input type='text' id='name' name='name' placeholder='name is required' autofocus> <!-- Using placeholder because it lets users click at the beginning of text box instead of value attribute. Although value does have darker and more visible text. -->
         </div>
 
-        <div>
-          <label for='email'>e-mail </label>
-          <input type='email' id='email' name='email' placeholder='e-mail is optional'>
-        </div>
         <br>
         <p>Pick your Championship Team:</p>
         <div>
