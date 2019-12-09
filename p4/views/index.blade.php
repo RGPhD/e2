@@ -23,16 +23,11 @@
       <li>Pick the right team and you Win!</li>
       <li>After you play, take the WBA Trivia Challenge.</li>
     </ul>  
-    <form method='POST' action='save-new-game'>
+    <form method='GET' action='save-new-game'>
       <fieldset>
-        <legend>Enter your Game Information:</legend>
-        <div>
-          <label for='name'>Name</label>
-          <input type='text' id='name' name='name' placeholder=' enter your name' autofocus> <!-- Using placeholder because it lets users click at the beginning of text box instead of value attribute. Although value does have darker and more visible text. -->
-        </div>
-
-        <br>
-        <p>Pick your Championship Team:</p>
+        <legend>Enter your Game Information Below:</legend>
+        
+        <p>Pick your Championship Team!</p>
         <div>
           <input type='radio' value='Chicago' id='Chicago' name='team'>
           <label for='Chicago'> Chicago Twisters</label>
@@ -46,17 +41,37 @@
       </fieldset>
     </form>
 
-  @if($newName)
-  {{ $newName }}... Your Game Results are Added Here ->
-  @endif
-
   @if($app->errorsExist())
-<ul class='error alert alert-danger'>
+<ul>
     @foreach($app->errors() as $error)
     <li>{{ $error }}</li>
     @endforeach
 </ul>
   @endif
+
+@if ($game)
+    <h2>Your Game Results</h2> 
+<ul>      
+      <li>The Computer’s WBA Champion is: {{$game['computer']}}. </li>
+      <li>You picked: {{$game['player']}}. </li>
+      
+      <li>
+@if ($game['winner'] == true)
+          You won!
+          @elseif ($game['winner'] == false)
+         The computer won.
+          @else
+          The game was a tie!
+        @endif </li>
+        
+
+      <li>Learn about all of the WBA Champions by reading the <a href="https://www.amazon.com/Vision-Untold-Basketball-Association-Updated/dp/1533194912" target="_blank" title="Click to visit the WBA Book Page on Amazon"> WBA Book</a> or seeing the <a href="https://www.wbathevision.com/the-vision-is-coming-to-kansas-city" target="_blank" title="Click to visit the WBA Vision Movie Page">WBA Movie</a>!</li>
+     
+  </ul>
+    <div>
+      <button class='refresh' value="Refresh Page" onClick="window.location.reload();">Click to Refresh Page and Play Again</button>
+    </div>
+@endif
 
     <p><a href='/games'>View all P4 Game History</a></p>
 

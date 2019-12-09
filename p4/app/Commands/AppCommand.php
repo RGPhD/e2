@@ -1,39 +1,47 @@
 <?php
-
 namespace App\Commands;
-
 class AppCommand extends Command
 {
-    public function test()
-    {
-        dump('It works! You invoked your test command.');
-    }
-    public function migrate()
+        public function migrate()
     {
         $this->app->db()->createTable('games', [
-            'name' => 'varchar(255)',
-            'team' => 'tinyint(1)'
+            'player' => 'varchar(255)',
+            'computer' => 'varchar(255)',
+            'winner' => 'int',
         ]);
+
         dump('It works! You invoked your migrate command.');
     }
+
     public function seed()
     {
 # Instantiate a new instance of the Faker\Factory class
-$faker = \Faker\Factory::create();
+# $faker = \Faker\Factory::create();
 
-# Use a loop to create 10 reviews
+$fakerChampion = ['Chicago', 'Kansas'];
+# Use a loop to create 10 games
 for ($i = 0; $i < 10; $i++) {
 
-    # Set up a game
-    $game = [
-        'name' => $faker->name,
-        'team' => ($i % 2 == 0) ? 0 : 1,
-    ];
+$fakerPlayer = $fakerChampion[rand(0, 1)];
+$fakerComputer = $fakerChampion[rand(0, 1)];
+# or  $fakerChampion[array_rand($fakerChampion)];  
 
-    # Insert the game
-    $this->app->db()->insert('games', $game);
+if ($fakerPlayer == $fakerComputer) {
+    $winner = true;
+} else {
+    $winner = false;
 }
 
+# Set up game/and data for table
+    $game = [
+            'winner' => $winner,
+            'player' => $player,
+            'computer' => $computer,
+        ];
+
+    # Insert game
+    $this->app->db()->insert('games', $game);
+}
         dump('It works! You invoked your seed command.');
     }
     public function fresh()

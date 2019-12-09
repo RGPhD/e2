@@ -1,40 +1,51 @@
 <?php
 namespace App\Controllers;
-
 class AppController extends Controller
 {
-    /**
-     *
-     */
+
     public function index()
     {
-        $newName = $this->app->old('newName', null);
-
-        return $this->app->view('index', ['newName' => $newName]);
+        $game = $this->app->old('game', null);
+        return $this->app->view('index', ['game' => $game]);
     }
 
     public function saveNewGame()
     {  
        $this->app->validate([
             'team' => 'required',
-            'name' => 'required|minLength:2',
         ]);
 
-       $data = [
-        'name' => $this->app->input('name'),
-        'team' => $this->app->input('team')
-       ];
+        $player = $this->app->input('team');
 
-       $this->app->db()->insert('games', $data);
+        $champion = ['Chicago', 'Kansas'];
+        $computer = $champion[rand(0, 1)];
 
-       $this->app->redirect('/', ['name' => $data['name']]);
+if ($player == $computer) {
+    $winner = true;
+} else {
+    $winner = false;
+}
+
+// Persist each game results to the database table
+// Save input field team to the $game array
+        $game = [
+            'winner' => $winner,
+            'player' => $player,
+            'computer' => $computer,
+        ];
+
+       $this->app->db()->insert('games', $game);
+
+       $this->app->redirect('/', ['game' => $game]);
        
-    }
+    }  
+     
+    
+
 
     public function games()
     { 
         $games = $this->app->db()->all('games');
-
         return $this->app->view('games', ['games' => $games]);  
     }
 
@@ -44,3 +55,4 @@ class AppController extends Controller
     }
 
 }
+

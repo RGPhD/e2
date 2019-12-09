@@ -21,7 +21,7 @@ Game History
 
 <ul>
   @foreach($games as $game)
- <li>{{ $game['name'] }}</li>
+ <li>{{ $game['winner'] }}</li>
 
   @endforeach
   </ul>
