@@ -36,7 +36,7 @@
         <label for='Kansas'> Kansas Crusaders</label>
 <!-- I removed checked box on Kansas. -->
         <div>
-          <button type='submit' title='Good Luck!'>Click to Play the Game</button>
+          <button type='submit' title='Good Luck!'>Click to PLAY the Game</button>
         </div>
       </fieldset>
     </form>
