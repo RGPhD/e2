@@ -56,9 +56,9 @@
       <li>You picked: {{$game['player']}}. </li>
       
       <li>
-@if ($game['winner'] == true)
+@if ($game['winner'] == 1)
           You won!
-          @else ($game['winner'] == false)
+          @else ($game['winner'] == 2)
           You did not win.
 @endif
       </li>

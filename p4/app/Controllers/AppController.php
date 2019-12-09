@@ -21,9 +21,9 @@ class AppController extends Controller
         $computer = $champion[rand(0, 1)];
 
 if ($player == $computer) {
-    $winner = true;
+    $winner = 1;
 } else {
-    $winner = false;
+    $winner = 2;
 }
 
 // Persist each game results to the database table

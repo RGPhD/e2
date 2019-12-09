@@ -27,9 +27,9 @@ $fakerComputer = $fakerChampion[rand(0, 1)];
 # or  $fakerChampion[array_rand($fakerChampion)];  
 
 if ($fakerPlayer == $fakerComputer) {
-    $winner = true;
+    $winner = 1;
 } else {
-    $winner = false;
+    $winner = 2;
 }
 
 # Set up game/and data for table
