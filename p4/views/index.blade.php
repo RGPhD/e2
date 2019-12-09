@@ -25,7 +25,7 @@
     </ul>  
     <form method='GET' action='/save-new-game'>
       <fieldset>
-        <legend>Enter your Game Information Below:</legend>
+        <legend><h2>Enter your Game Information Below:</h2></legend>
         
         <p>Pick your Championship Team!</p>
         <div>

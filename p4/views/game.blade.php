@@ -1,7 +1,7 @@
 @extends('templates.master')
 
 @section('title')
-Individual Games
+Individual Games - Game {{ $game['id'] }}
 @endsection
 
 @section('content')
@@ -16,6 +16,15 @@ Individual Games
       <li><a href="https://github.com/RGPhD/e2" target="blank">Game Code</a></li>
     </ul>
   </nav>
+
+  <h2>Game</h2>
+<p> Player pick {{ $game['player'] }}. Computer pick {{ $game['computer'] }}.
+@if ($game['winner'] == true)
+          Player Won!
+          @else ($game['winner'] == false)
+         Player did not win.
+        @endif
+</p>
 
   <p><a href='/games'>View all of P4 Game History</a></p>
 

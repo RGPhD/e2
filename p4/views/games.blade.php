@@ -17,13 +17,13 @@ Game History
     </ul>
   </nav>
 
-  <a href='game'>View P4 Individual Games</a>
+  <p><a href='game'>View P4 Individual Games</a></p>
 
 <ul>
-  @foreach($games as $game)
- <li>{{ $game['winner'] }}</li>
-
-  @endforeach
-  </ul>
+@foreach ($games as $game)
+      <li><a href = "/game?id={{$game['id']}}"></a>
+      Game Result {{$game['id']}}</li>
+@endforeach
+</ul>
 
 @endsection

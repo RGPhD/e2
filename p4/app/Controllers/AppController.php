@@ -51,7 +51,16 @@ if ($player == $computer) {
 
     public function game()
     {
-        return $this->app->view('game');
+        $id = $this->app->param('id');
+        
+       # if (is_null($id)) {
+       #    return $this->app->redirect('/games');
+       # }
+        
+        $game = $this->app->db()->findById('games', $id);
+        
+        return $this->app->view('game', ['game' => $game]);
+        # return $this->app->view('game');
     }
 
 }
