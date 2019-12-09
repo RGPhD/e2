@@ -23,7 +23,7 @@
       <li>Pick the right team and you Win!</li>
       <li>After you play, take the WBA Trivia Challenge.</li>
     </ul>  
-    <form method='GET' action='save-new-game'>
+    <form method='GET' action='/save-new-game'>
       <fieldset>
         <legend>Enter your Game Information Below:</legend>
         
@@ -58,11 +58,11 @@
       <li>
 @if ($game['winner'] == true)
           You won!
-          @elseif ($game['winner'] == false)
-         The computer won.
-          @else
-          The game was a tie!
-        @endif </li>
+          @else ($game['winner'] == false)
+          You did not win.
+@endif
+      </li>
+
         
 
       <li>Learn about all of the WBA Champions by reading the <a href="https://www.amazon.com/Vision-Untold-Basketball-Association-Updated/dp/1533194912" target="_blank" title="Click to visit the WBA Book Page on Amazon"> WBA Book</a> or seeing the <a href="https://www.wbathevision.com/the-vision-is-coming-to-kansas-city" target="_blank" title="Click to visit the WBA Vision Movie Page">WBA Movie</a>!</li>
