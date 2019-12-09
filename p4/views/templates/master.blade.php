@@ -3,12 +3,16 @@
 <head>
 
     <title>@yield('title', $app->config('app.name'))</title>
-
     <meta charset='utf-8'>
+    <meta name="description" content="WBA Fantasy Basketball Game">
+    <meta name="author" content="Robelyn Garcia">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- External CSS file providing Separation of Concerns (SoC). -->
+    <link rel="stylesheet" href='http://p3.robelyngarcia.me/style.css'>
     <link rel='shortcut icon' href='/favicon.ico'>
-
     <link href='/css/app.css' rel='stylesheet'>
+    
 
     @yield('head')
 
@@ -21,6 +25,18 @@
 <main>
     @yield('content')
 </main>
+
+<footer>
+      <br>
+      <strong><a href="https://www.facebook.com/womensbasketballassociation" target="_blank" title="Click to visit the Womens Basketball Association Facebook Page">The Women's Basketball Association Facebook Page
+        </a></strong>
+      <br>
+      <br>
+      <strong><a href="https://hesweb.dev/e2" target="_blank" title="Click to visit Harvard Extension School: Web Programming for Beginners with PHP">Harvard University Extension School: DGMD E-2 Web Programming with PHP
+        </a></strong>
+      <br>
+    </footer>
+    <br>
 
 @yield('body')
 

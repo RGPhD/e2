@@ -11,13 +11,13 @@ Individual Games
 <nav class="sitenav">
     <ul>
       <li><a href="http://p3.robelyngarcia.me">P3 Game</a></li>
-      <li><a href="http://p4.robelyngarcia.me">P4 Game</a></li>
-      <li class="youarehere"><a href="http://p3.robelyngarcia.me/wbatrivia.php">Game Trivia</a></li>
+      <li class="youarehere"><a href="http://p4.robelyngarcia.me">P4 Game</a></li>
+      <li><a href="http://p3.robelyngarcia.me/wbatrivia.php">Game Trivia</a></li>
       <li><a href="https://github.com/RGPhD/e2" target="blank">Game Code</a></li>
     </ul>
   </nav>
 
-  <a href="http://p4.robelyngarcia.me/games">P4 Game History</a>
+  <p><a href='/games'>View all of P4 Game History</a></p>
 
 
 @endsection

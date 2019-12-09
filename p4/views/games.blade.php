@@ -11,15 +11,15 @@ Game History
 <nav class="sitenav">
     <ul>
       <li><a href="http://p3.robelyngarcia.me">P3 Game</a></li>
-      <li><a href="http://p4.robelyngarcia.me">P4 Game</a></li>
-      <li class="youarehere"><a href="http://p3.robelyngarcia.me/wbatrivia.php">Game Trivia</a></li>
+      <li class="youarehere"><a href="http://p4.robelyngarcia.me">P4 Game</a></li>
+      <li><a href="http://p3.robelyngarcia.me/wbatrivia.php">Game Trivia</a></li>
       <li><a href="https://github.com/RGPhD/e2" target="blank">Game Code</a></li>
     </ul>
   </nav>
 
-  <a href="http://p4.robelyngarcia.me/game">P4 Individual Games</a>
+  <a href='game'>View P4 Individual Games</a>
 
-</ul>
+<ul>
   @foreach($games as $game)
  <li>{{ $game['name'] }}</li>
 

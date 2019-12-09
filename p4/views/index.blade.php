@@ -1,7 +1,7 @@
 @extends('templates.master')
 
 @section('title')
-    WBA p4 Game
+    WBA Fantasy Game
 @endsection
 
 @section('content')
@@ -23,12 +23,12 @@
       <li>Pick the right team and you Win!</li>
       <li>After you play, take the WBA Trivia Challenge.</li>
     </ul>  
-    <form method='GET' action='process.php'>
+    <form method='POST' action='save-new-game'>
       <fieldset>
-        <legend>Enter your Information:</legend>
+        <legend>Enter your Game Information:</legend>
         <div>
           <label for='name'>Name</label>
-          <input type='text' id='name' name='name' placeholder='name is required' autofocus> <!-- Using placeholder because it lets users click at the beginning of text box instead of value attribute. Although value does have darker and more visible text. -->
+          <input type='text' id='name' name='name' placeholder=' enter your name' autofocus> <!-- Using placeholder because it lets users click at the beginning of text box instead of value attribute. Although value does have darker and more visible text. -->
         </div>
 
         <br>
@@ -37,15 +37,27 @@
           <input type='radio' value='Chicago' id='Chicago' name='team'>
           <label for='Chicago'> Chicago Twisters</label>
         </div>
-        <input type='radio' value='Kansas' id='Kansas' name='team' checked>
+        <input type='radio' value='Kansas' id='Kansas' name='team'>
         <label for='Kansas'> Kansas Crusaders</label>
-
+<!-- I removed checked box on Kansas. -->
         <div>
           <button type='submit' title='Good Luck!'>Click to Play the Game</button>
         </div>
       </fieldset>
     </form>
 
-    <a href="http://p4.robelyngarcia.me/games">P4 Game History</a>
+  @if($newName)
+  {{ $newName }}... Your Game Results are Added Here ->
+  @endif
+
+  @if($app->errorsExist())
+<ul class='error alert alert-danger'>
+    @foreach($app->errors() as $error)
+    <li>{{ $error }}</li>
+    @endforeach
+</ul>
+  @endif
+
+    <p><a href='/games'>View all P4 Game History</a></p>
 
 @endsection
