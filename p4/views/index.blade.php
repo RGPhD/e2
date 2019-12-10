@@ -25,14 +25,14 @@
         </div>
         <input type='radio' value='Kansas' id='Kansas' name='team'>
         <label for='Kansas'> Kansas Crusaders</label>
-<!-- I removed checked box on Kansas. -->
+        <!-- I removed checked box on Kansas. -->
         <div>
           <button type='submit' title='Good Luck!'>Click to PLAY the Game</button>
         </div>
       </fieldset>
     </form>
 
-  @if($app->errorsExist())
+@if($app->errorsExist())
 <ul>
     @foreach($app->errors() as $error)
     <li class='or'>{{ $error }}</li>

@@ -13,7 +13,6 @@
     <link rel='shortcut icon' href='/favicon.ico'>
     <link href='/css/app.css' rel='stylesheet'>
     
-
     @yield('head')
 
 </head>
@@ -32,7 +31,7 @@
       <li><a href="https://github.com/RGPhD/e2" target="_blank" title="Opens in a new tab">Game Code</a></li>
     </ul>
   </nav>
-    @yield('content')
+@yield('content')
 </main>
 
 <footer>
