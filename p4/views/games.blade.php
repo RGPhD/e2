@@ -21,8 +21,8 @@ Game History
 
 <ul>
 @foreach ($games as $game)
-      <li><a href = "/game?id={{$game['id']}}"></a>
-      Game Result {{$game['id']}}</li>
+      <li><a href = "/game?id={{$game['id']}}">
+      Game Result {{$game['id']}}</li></a>
 @endforeach
 </ul>
 

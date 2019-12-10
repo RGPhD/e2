@@ -18,7 +18,7 @@ Individual Games - Game {{ $game['id'] }}
   </nav>
 
   <h2>Game</h2>
-<p> Player pick {{ $game['player'] }}. Computer pick {{ $game['computer'] }}.
+<p> Player picked {{ $game['player'] }}. Computer picked {{ $game['computer'] }}.
 @if ($game['winner'] == 1)
           Player Won!
 @else ($game['winner'] == 2)
