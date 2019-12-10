@@ -6,27 +6,19 @@ Individual Games - Game {{ $game['id'] }}
 
 @section('content')
 
-<h2>Indivdual Game Result</h2>
-    
-<nav class="sitenav">
-    <ul>
-      <li><a href="http://p3.robelyngarcia.me">P3 Game</a></li>
-      <li class="youarehere"><a href="http://p4.robelyngarcia.me">P4 Game</a></li>
-      <li><a href="http://p3.robelyngarcia.me/wbatrivia.php">Game Trivia</a></li>
-      <li><a href="https://github.com/RGPhD/e2" target="blank">Game Code</a></li>
-    </ul>
-  </nav>
-
-  <h2>Game</h2>
-<p> Player picked {{ $game['player'] }}. Computer picked {{ $game['computer'] }}.
+  <h2>Game {{$game['id']}} Individual Result:</h2>
+  <ul>
+<li> Player picked {{ $game['player'] }}. </li>
+<li> Computer picked {{ $game['computer'] }}. </li>
 @if ($game['winner'] == 1)
-          Player Won!
+<li>         Player Won!
 @else ($game['winner'] == 2)
          Player did not win.
 @endif
-</p>
+</li>
+</ul>
 
-  <p><a href='/games'>View all of P4 Game History</a></p>
+  <p>&rarr; <a href='/games'>View all of P4 Game History</a></p>
 
 
 @endsection

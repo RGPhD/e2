@@ -46,6 +46,8 @@
       <?php echo $winner; ?>
   </ul>
 
+  <h2>Refresh the Page to Play Again</h2>
+
   <h3>Thanks for Playing the Trailblazers MVP Knockout 3-Pt Shooting Game!</h3>
 
   <footer>

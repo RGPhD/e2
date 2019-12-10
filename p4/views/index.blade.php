@@ -5,15 +5,6 @@
 @endsection
 
 @section('content')
-    
-<nav class="sitenav">
-    <ul>
-      <li><a href="http://p3.robelyngarcia.me">P3 Game</a></li>
-      <li class="youarehere"><a href="http://p4.robelyngarcia.me">P4 Game</a></li>
-      <li><a href="http://p3.robelyngarcia.me/wbatrivia.php">Game Trivia</a></li>
-      <li><a href="https://github.com/RGPhD/e2" target="blank">Game Code</a></li>
-    </ul>
-  </nav>
 
     <h2>Game Instructions:</h2>
     <ul>
@@ -27,7 +18,7 @@
       <fieldset>
         <legend><h2>Enter your Game Information Below:</h2></legend>
         
-        <p>Pick your Championship Team!</p>
+        Pick your Championship Team!
         <div>
           <input type='radio' value='Chicago' id='Chicago' name='team'>
           <label for='Chicago'> Chicago Twisters</label>
@@ -44,7 +35,7 @@
   @if($app->errorsExist())
 <ul>
     @foreach($app->errors() as $error)
-    <li class=runnerup>{{ $error }}</li>
+    <li class='or'>{{ $error }}</li>
     @endforeach
 </ul>
   @endif
@@ -72,6 +63,6 @@
     </div>
 @endif
 
-    <p><a href='/games'>View all P4 Game History</a></p>
+    <p class='champion'>&rarr; <a href='/games'>View all P4 Game Results</a></p>
 
 @endsection

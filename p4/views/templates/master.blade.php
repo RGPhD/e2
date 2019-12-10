@@ -23,6 +23,15 @@
       <img alt='WBA Womens Basketball Association Logo' title='WBA Womens Basketball Association Logo' src='https://www.wbathevision.com/VISION/wp-content/uploads/WBA.png' class="center">
 
 <main>
+<nav class="sitenav">
+    <ul>
+      <li class="youarehere"><a href="http://p4.robelyngarcia.me">P4 Game</a></li>
+      <li><a href="http://p3.robelyngarcia.me">P3 Game</a></li>
+      <li><a href="http://p2.robelyngarcia.me" target="_blank" title="P2 opens in new tab">P2 Game</a></li>
+      <li><a href="http://p3.robelyngarcia.me/wbatrivia.php">Game Trivia</a></li>
+      <li><a href="https://github.com/RGPhD/e2" target="_blank" title="Opens in a new tab">Game Code</a></li>
+    </ul>
+  </nav>
     @yield('content')
 </main>
 
