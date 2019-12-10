@@ -18,7 +18,7 @@
       <fieldset>
         <h2>Enter your Game Information Below:</h2>
         
-        Pick your Championship Team!
+        Pick your Women's Pro Basketball Association Championship Team!
         <div>
           <input type='radio' value='Chicago' id='Chicago' name='team'>
           <label for='Chicago'> Chicago Twisters</label>
