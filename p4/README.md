@@ -3,7 +3,7 @@
 + Production URL: <http://p4.robelyngarcia.me>
 
 ## Outside resources
-+ Photo courtesy of The WBA and Lightning Ned Mitchell. Retrieved from <https://www.wbathevision.com/VISION/wp-content/uploads/WBA.png>. 
++ Photo courtesy of The WBA and Lightning N. Mitchell. Retrieved from <https://www.wbathevision.com/VISION/wp-content/uploads/WBA.png>. 
 
 ## Notes for instructor
 + I added links to P2, P3 and WBA Trivia Challenge in the Navigation Menu.
