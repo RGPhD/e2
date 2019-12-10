@@ -40,9 +40,6 @@ if ($player == $computer) {
        
     }  
      
-    
-
-
     public function games()
     { 
         $games = $this->app->db()->all('games');

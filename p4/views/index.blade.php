@@ -44,7 +44,7 @@
   @if($app->errorsExist())
 <ul>
     @foreach($app->errors() as $error)
-    <li>{{ $error }}</li>
+    <li class=runnerup>{{ $error }}</li>
     @endforeach
 </ul>
   @endif
@@ -57,13 +57,12 @@
       
       <li>
 @if ($game['winner'] == 1)
-          You won!
+          Congrats You Won!
           @else ($game['winner'] == 2)
           You did not win.
 @endif
       </li>
-
-        
+      <li>View all <a href='/games'>Game History</a></li>  
 
       <li>Learn about all of the WBA Champions by reading the <a href="https://www.amazon.com/Vision-Untold-Basketball-Association-Updated/dp/1533194912" target="_blank" title="Click to visit the WBA Book Page on Amazon"> WBA Book</a> or seeing the <a href="https://www.wbathevision.com/the-vision-is-coming-to-kansas-city" target="_blank" title="Click to visit the WBA Vision Movie Page">WBA Movie</a>!</li>
      

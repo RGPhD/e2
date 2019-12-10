@@ -21,9 +21,9 @@ Individual Games - Game {{ $game['id'] }}
 <p> Player pick {{ $game['player'] }}. Computer pick {{ $game['computer'] }}.
 @if ($game['winner'] == 1)
           Player Won!
-          @else ($game['winner'] == 2)
+@else ($game['winner'] == 2)
          Player did not win.
-        @endif
+@endif
 </p>
 
   <p><a href='/games'>View all of P4 Game History</a></p>
