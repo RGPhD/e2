@@ -3,25 +3,28 @@
 + Course work for DGMD E-2
 <https://hesweb.dev/e2>
 
+## Online Code
++ JsFiddle URL: <https://jsfiddle.net/user/RobelynGarcia/fiddles/>
++ CodePen Url: <https://codepen.io/DrRobelynGarcia>
++ Paiza Php Url: <https://paiza.io/users/show/45209>
+
 ## Practice APPs
 + *Practice Workflow and Frameworks*
-+ Production URL: <http://practice.robelyngarcia.me>
-+ Production URL: <http://practice.robelyngarcia.me/bank.php>
-+ Production URL: <http://practice.robelyngarcia.me/p3game>
-+ Production URL: <http://zipfoods.robelyngarcia.me>
++ Code URL: <https://github.com/RGPhD/e2/tree/master/practice>
++ Code URL: <https://github.com/RGPhD/e2/tree/master/zipfoods>
 
 ## Project 1
 + *Workflow setup*
-+ Production URL: <http://p1.robelyngarcia.me>
++ Code URL: <https://github.com/RGPhD/e2/tree/master/p1>
 
 ## Project 2
 + *Basic PHP Application*
-+ Production URL: <http://p2.robelyngarcia.me>
++ Code URL: <https://github.com/RGPhD/e2/tree/master/p2>
 
 ## Project 3
 + *Form processing*
-+ Production URL: <http://p3.robelyngarcia.me>
++ Code URL: <https://github.com/RGPhD/e2/tree/master/p3>
 
 ## Project 4
 + *Database integration*
-+ Production URL: <http://p4.robelyngarcia.me>
++ Code URL: <https://github.com/RGPhD/e2/tree/master/p4>
