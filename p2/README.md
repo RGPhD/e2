@@ -27,7 +27,7 @@
 ## Outside resources
 + There are a myriad of ways to play Knockout.  I have included a link to the output of a simple Google search of *Knockout Basketball Game* below:
 <https://www.google.com/search?q=knockout+basketball+game>
-+ Photo courtesy of Jr. NBA-WNBA and WBCBL. Retrieved from <https://twitter.com/WomensProHoops/status/1177920444466257922>. 
++ Photo courtesy of Jr. NBA-WNBA and WBCBL. Retrieved from <https://senioruniversity.files.wordpress.com/2015/07/ku-camp-woodard-robelyn-garcia-edited.jpg>. 
 
 ## Notes for instructor
 + I selected the *MVP Professional Player* version of Knockout where the players only shoot 3-pointers.
