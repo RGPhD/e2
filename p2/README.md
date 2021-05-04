@@ -1,6 +1,6 @@
-# Project 2
+# Project 2 Basic PHP Application - Game simulator
 + By: *Robelyn Garcia*
-+ Production URL: <http://p2.robelyngarcia.me>
++ Production URL: <https://hesweb.dev/e2/projects/1>
 
 ## Game planning
 * Define a winner variable, this will be null at the beginning of the game.
