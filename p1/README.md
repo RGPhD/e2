@@ -1,6 +1,6 @@
-# Project 1
+# Project 1 Workflow setup + PHP foundation Bio page
 + By: *Robelyn Garcia*
-+ Production URL: <http://p1.robelyngarcia.me>
++ Production URL: <https://hesweb.dev/e2/projects>
 
 ## Outside resources
 + My *brief bio* retrieved from <https://universityofsedona.com/rev-robelyn-garcia>
