@@ -1,6 +1,6 @@
-# Project 3
+# Project 3 Form processing - Game w/user input
 + By: *Robelyn Garcia*
-+ Production URL: <http://p3.robelyngarcia.me>
++ Production URL: <https://hesweb.dev/e2/projects/2>
 
 ## Game planning
 * Define a winner variable, this will be null at the beginning of the game.
