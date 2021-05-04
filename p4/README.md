@@ -7,4 +7,4 @@
 
 ## Notes for instructor
 + I added links to P2, P3 and WBA Trivia Challenge in the Navigation Menu.
-+ Valid HTML and CSS code. Had on error just like the example at <https://e2p3.hesweb.dev>
++ Valid HTML and CSS code. Had one minor php error just like the example at <https://e2p3.hesweb.dev>.
